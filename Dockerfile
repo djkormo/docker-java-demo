@@ -13,5 +13,5 @@ MAINTAINER DjKormo <djkormo@gmail.com>
 
 COPY --from=build /usr/src/app/target/app-0.0.1-SNAPSHOT.jar /usr/app/app-0.0.1-SNAPSHOT.jar 
 EXPOSE 8080  
-ENTRYPOINT ["java","-jar","/usr/app/app-0.0.1-SNAPSHOT.jar", ""]  
+ENTRYPOINT ["java","-jar","/usr/app/app-0.0.1-SNAPSHOT.jar"]  
 

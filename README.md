@@ -1,6 +1,6 @@
 # docker-java-demo
 
-### Install portainer/portainer
+### Install portainer for simple debug
  
 ```console
 docker pull portainer/portainer
@@ -8,7 +8,9 @@ docker pull portainer/portainer
 
 ### On linux
 
+```console
 docker run -d -p 9000:9000 --name portainer-linux --restart always -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+```
 
 ### On Windows
 ```console
