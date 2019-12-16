@@ -16,6 +16,6 @@ jobs:
     - name: Publish to Docker Repository
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: djkormo/mnist-web-demo
+        name: djkormo/sb-java-demo
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
